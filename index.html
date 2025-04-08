@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script rel="script" src="script.js"></script>
+    <title>Lista JS 1 | Guilherme Nobrega</title>
+</head>
+
+<body>
+    <h2>Lista JS 1</h2>
+    <br><br>
+    <section name="ex1" id="ex1" class="ex1">
+        <div class="salFunc">
+            <h3>Exercício 1:</h3>
+            <label for="salFunc">Salário do funcionário:</label>
+            <input type="number" name="salFunc" id="salFunc"><br>
+            <label for="per">Porcentagem de aumento:</label>
+            <input type="number" name="per" id="per"><br>
+            <button name="calculaSal" class="calculaSal" id="calculSal" onclick="calculaSal()">Calcular</button>
+            <p>Resultado:</p>
+            <p name="result" id="result"></p>
+        </div>
+    </section>
+    <br><br>
+    <section name="ex2" id="ex2" class="ex2">
+        <div class="baseTri">
+            <h3>Exercício 2:</h3>
+            <label for="baseTri">Base do Triângulo:</label>
+            <input type="number" name="baseTri" class="baseTri" id="baseTri"><br>
+            <label for="altTri">Altura do Triângulo:</label>
+            <input type="number" name="altTri" class="altTri" id="altTri"><br>
+            <button name="areaTriangulo" class="areaTriangulo" id="areaTriangulo"
+                onclick="areaTriangulo()">Calcular</button><br>
+            <label for="result">Área do Triângulo:</label>
+            <input type="number" name="area" class="area" id="area" readonly>
+        </div>
+    </section>
+    <br><br>
+    <section name="ex3" id="ex3" class="ex3">
+        <div class="mediaPond">
+            <h3>Exercício 3:</h3>
+            <label for="nota1">Primeira nota:</label>
+            <input type="number" name="nota1" class="nota1" id="nota1"><br>
+            <label for="nota2">Segunda nota:</label>
+            <input type="number" name="nota2" class="nota2" id="nota2"><br>
+            <button name="mediaPond" class="mediaPond" id="mediaPond" onclick="mediaPond()">Calcular</button><br>
+        </div>
+    </section>
+    <br><br>
+    <section name="ex4" id="ex4" class="ex4">
+        <div class="idade">
+            <h3>Exercício 4:</h3>
+            <label for="dataNasc">Digite sua data de nascimento:</label>
+            <input type="date" name="dataNasc" class="dataNasc" id="dataNasc"><br>
+            <button name="idade" class="idade" id="idade" onclick="idade()">Calcular</button><br>
+            <p id="resultIdade"></p>
+        </div>
+    </section>
+    <br><br>
+    <section name="ex5" id="ex5" class="ex5">
+        <div class="consumoMedio">
+            <h3>Exercício 5:</h3>
+            <label for="km">Digite os quilometros percorridos:</label>
+            <input type="number" name="km" class="km" id="km"><br>
+            <label for="lt">Digite o combustível utilizado em litros:</label>
+            <input type="number" name="lt" class="lt" id="lt"><br>
+            <button name="consumoMedio" class="consumoMedio" id="consumoMedio"
+                onclick="consumoMedio()">Calcular</button><br>
+        </div>
+    </section>
+    <br><br>
+    <section name="ex6" id="ex6" class="ex6">
+        <div class="calculaHoras">
+            <h3>Exercício 6:</h3>
+            <label for="horas">Digite as horas trabalhadas:</label>
+            <input type="number" name="horas" class="horas" id="horas"><br>
+            <label for="refs">Digite a quantidade de refeições:</label>
+            <input type="number" name="refs" class="refs" id="refs"><br>
+            <button name="calcular" class="calcular" id="calcular" onclick="calculaHoras()">Calcular</button><br>
+            <p id="mostraHoras"></p>
+        </div>
+    </section>
+    <br><br>
+    <section name="ex7" id="ex7" class="ex7">
+        <div class="parOuImpar">
+            <h3>Exercício 7:</h3>
+            <p>Descubra se um número aleatório é par ou ímpar.</p><br>
+            <button name="parOuImpar" class="parOuImpar" id="parOuImpar" onclick="parOuImpar()">Descobrir</button>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    border: solid;
+    border-radius: 10px;
+    width: 60vh;
+    padding: 10px;
+    align-content: center;
+    align-self: center;
+}
+
+div {
+    align-content: center;
+}
+
+label {
+    padding: 10px;
+}
+
+input {
+    margin: 10px;
+    align-self: center;
+}
+
+button {
+    text-align: center;
+}
