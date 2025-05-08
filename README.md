@@ -1,4 +1,4 @@
-  Esses são os arquivos para a realização da lista de exercícios:
+  Os arquivos criados para a realização da Lista de Exercícios são:
   
     . Index.html - A página Web onde os exercpicios são exibidos e resolvidos, desenvolvida em HTML.
     . Style.css - O documento de estilização da página com CSS.
@@ -27,3 +27,5 @@ estudos, tomei a decisão de manter os comentários para melhor orientação pos
       hora extra. Também descontar o valor por refeição consumida por ele. O resultado é exibido em uma tag "<p>";
       
     . Exercício 7: gerar um número aleatório, e exibir se esse número é para ou ímpar. O resultado é exibido dentro do próprio botão.
+
+  Os exercícios propostos foram resolvidos com JavaScript, e estilizados com CSS básico, para melhor visualização e execução. 
